@@ -1,4 +1,4 @@
-# Hi, I'm Anastasia 👋
+# Hi 👋
 
 I'm a backend-focused C# developer who builds and deploys real-world services.
 
