@@ -1,40 +1,53 @@
 # Hi 👋
 
-I'm a backend-focused C# developer who builds and deploys real-world services.
+I'm a backend-focused C# developer who enjoys building real-world services and deploying them to production.
 
-I enjoy working on projects that combine:
-- backend logic
+I like working on projects that combine:
+
+- backend architecture
 - web scraping
 - APIs
+- automation
 - and real production deployment on Linux servers.
 
 ---
 
 ## 🚀 Featured Project
 
-### 📚 FanficDownloader — Telegram Bot
+### 📚 FanficDownloader
 
-A production Telegram bot that lets users download fanfiction from multiple websites and receive it as EPUB or TXT files directly in Telegram.
+A production service that downloads fanfiction from multiple websites and generates **EPUB** or **TXT** files.
 
-🔗 **Live bot:** https://t.me/YourBotUsername  
+Users can access it through:
+
+- 🌐 Web interface  
+- 🤖 Telegram bot  
+- 🔌 REST API  
+
+🔗 **Live site:** https://fanficdownloader.com  
+🤖 **Telegram bot:** https://t.me/fanfic_downloader_bot  
 📦 **Repository:** https://github.com/nornan01/FanficDownloader  
 
-**What makes it interesting:**
-- Runs 24/7 on a Linux VPS using `systemd`
-- Uses a Dockerized FlareSolverr service to bypass Cloudflare on Fanfiction.net
-- Modular multi-source scraping architecture
-- Generates real EPUB files, not just text
+### What makes it interesting
+
+- Runs as a **production web service on a Linux VPS**
+- Uses **Docker + Nginx + HTTPS**
+- Queue-based architecture for safe concurrent downloads
+- Modular **multi-source scraping system**
+- Generates real **EPUB files with images**
+- Uses **FlareSolverr** to bypass Cloudflare on Fanfiction.net
 
 ---
 
 ## 🛠 Tech I work with
 
 - C# / .NET  
-- Telegram Bot API  
+- ASP.NET Core  
 - Web scraping & HTML parsing  
 - Docker  
+- Nginx  
 - Linux (Ubuntu VPS)  
-- systemd  
+- Telegram Bot API  
 - Git & GitHub  
 
 ---
@@ -43,7 +56,7 @@ A production Telegram bot that lets users download fanfiction from multiple webs
 
 - Backend development  
 - APIs and integrations  
-- Distributed systems  
+- Web services & infrastructure  
 - Automation and deployment  
 
 ---
